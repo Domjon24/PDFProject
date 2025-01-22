@@ -1,0 +1,48 @@
+<head><script src="main.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Amatic+SC" rel="stylesheet">
+<link rel="stylesheet" href="styles.css"></style>
+</head>
+<body>
+
+    <div>
+        <h1 id="title">PDF Upload<h1>
+    </div>
+    <div> 
+        <form id="survey-form" action="upload.php" method="POST" enctype="multipart/form-data">
+            <p id="description">
+                Select a PDF to extract your data</p>
+        <label id="name-label">File Name:</label>
+        <input id="name" placeholder="Enter File Name Here">
+        <div><br>
+            <div>
+                <label>Which Data do you want?</label>
+                <div>
+                <label>Net Total</label><input type="radio" name="resource" value="1">
+                <label>Date</label><input type="radio" value="2" name="resource"> <br>
+                <label>Both</label><input type="radio" value="3" name="resource">
+        </div> <br>
+
+        <div>
+            <!-- <label>Upload File</label> -->
+            <input 
+                
+                id="userFileUpload" 
+                type="file" 
+                name="file" 
+                accept=".pdf, image/*" 
+                multiple></input>
+                <!-- <label id="mylabel" for="userFileUpload">Upload</label> -->
+        </div><br>
+
+        
+          <div>
+            
+        <button type="submit" name="submit">Submit</button>
+    </form>
+
+    <div id="preview">
+        <img src="images/profile.png">
+        <!-- <p>No files currently selected for upload</p> -->
+      </div>
+    </div>
+</body>

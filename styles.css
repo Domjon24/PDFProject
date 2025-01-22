@@ -1,0 +1,53 @@
+#topnav{
+    text-align:center;
+   font-size: 14px;
+    padding-top: 5px;
+  }
+  body{
+    background-image: linear-gradient(black, #242424);
+    text-align: center;
+    color: white;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 4%;
+    font-family: 'Amatic SC', cursive, sans-serif;
+    font-size: 50px;
+  
+    }
+  #title{
+    text-align: center;
+    }
+  #description, .preview{
+    font-family: 'Amatic SC', cursive, sans-serif;
+    margin-top: -30px;
+    }
+  form{
+    /* background-image: url("https://cdn.inspirationhut.net/wp-content/uploads/2014/09/black-paper.jpg"); */
+    background-repeat: repeatx;
+    padding-top: 5%;
+  
+    font-size: 70%;
+    font-family: sans-serif;
+      }
+  #survey-form{
+  padding-bottom: 5%;
+               }
+  label{
+    font-size: 20px;
+        }
+        
+     /* #userFileUpload {
+        display: none;
+    } */
+  #mylabel {
+    /* display: none; */
+    padding: 1%;
+    /* margin: 40px 50px ; */
+    width: 350px;
+    border-radius: 10px;
+    border: 1px dashed #d7c8c8;
+  }
+  #mylabel:hover {
+    border: 3px dashed #ffffff;
+    text-transform: uppercase;
+  }
